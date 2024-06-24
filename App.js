@@ -3,17 +3,17 @@ import Constants from 'expo-constants';
 import { StyleSheet } from 'react-native';
 
 export default function App() {
-  return (
-    <WebView
-      style={styles.container}
-      source={{ uri: 'https://iltcuhtml.github.io/Breathing/' }}
-    />
-  );
+    return (
+        <WebView
+        style={styles.container}
+        source={{ uri: 'https://iltcuhtml.github.io/Breathing/' }}
+        />
+    );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    marginTop: Constants.statusBarHeight,
-  },
+    container: {
+        flex: 1,
+        marginTop: Constants.statusBarHeight,
+    },
 });
